@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 const Card = () => {
   return (
     <div className="card lg:card-side bg-base-100 border-2 rounded-md p-4">
-      <div className="flex justify-between items-center pb-2 font-semibold">
+      <div className="flex justify-between items-center pb-2 font-semibold text-sm">
         <p className="uppercase text-gray-600">Obecna pogoda</p>
         <p>13:39</p>
       </div>
@@ -24,7 +24,7 @@ const Card = () => {
               </div>
             </div>
             <div className="text-lg">
-              <p>RealFeel</p>
+              <p>RealFeel®</p>
               <span>81°</span>
             </div>
           </div>
@@ -40,9 +40,26 @@ const Card = () => {
 
       {/* RIGHT INFOS */}
 
-      <div className="card-body">
-        <h2 className="card-title">New album is released!</h2>
-        <p>Click the button to listen on Spotiwhy app.</p>
+      <div className="card-body divide-y-2">
+        <div>
+          <p>RealFeel Shade™</p>
+          <span className="font-semibold">71°</span>
+        </div>
+
+        <div>
+          <p>Wiatr</p>
+          <span className="font-semibold">WSW 5 mili/h</span>
+        </div>
+
+        <div>
+          <p>Porywy wiatru</p>
+          <span className="font-semibold">11 mili/h</span>
+        </div>
+
+        <div>
+          <p>Jakość powietrza</p>
+          <span className="font-semibold text-amber-400">Niedobre</span>
+        </div>
       </div>
     </div>
   );
