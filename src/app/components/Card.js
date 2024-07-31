@@ -2,7 +2,7 @@ import { AiOutlineSun } from "react-icons/ai";
 
 const Card = () => {
   return (
-    <div className="card lg:card-side bg-base-100 shadow-xl">
+    <div className="card lg:card-side bg-base-100 border-2 rounded-md">
       <figure>
         <AiOutlineSun size={100} className="text-amber-500" />
       </figure>
