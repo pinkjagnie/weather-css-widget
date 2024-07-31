@@ -12,7 +12,7 @@ const Card = () => {
 
       {/* TOP / LEFT INFOS WITH SUN */}
 
-      <div className="flex flex-col items-start p-4">
+      <div className="flex flex-col items-start p-4 mx-auto">
         <div className="flex items-start space-x-4">
           <AiOutlineSun className="text-8xl text-amber-500" />
           <div>
@@ -40,7 +40,7 @@ const Card = () => {
 
       {/* RIGHT INFOS */}
 
-      <div className="card-body divide-y-2">
+      <div className="card-body divide-y-2 mx-auto">
         <div>
           <p>RealFeel Shade™</p>
           <span className="font-semibold">71°</span>
