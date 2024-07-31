@@ -4,7 +4,7 @@ import DetailsPart from "./CardDetails/DetailsPart";
 const Card = () => {
   return (
     <div className="card bg-base-100 border-2 rounded-md p-4">
-      <div className="flex justify-between items-center pb-2 font-semibold text-sm">
+      <div className="flex justify-between items-center pb-4 font-semibold text-sm lg:text-xs">
         <p className="uppercase text-gray-600">Obecna pogoda</p>
         <p>13:39</p>
       </div>
