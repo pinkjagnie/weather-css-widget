@@ -4,8 +4,8 @@ const InfoBadge = () => {
       <p className="uppercase font-semibold text-sm pl-2 text-gray-600">
         Przegląd pogody
       </p>
-      <div className="-mx-4 w-[calc(100%+1rem)] border-b-2 border-gray-200"></div>
-      <div className="pl-2 pt-2">
+      <div className="-mx-2 w-[calc(100%+1rem)] border-b-2 border-gray-200"></div>
+      <div className="pl-2 py-2">
         Przewidywane przelotne opady w: czwartek po południu
       </div>
     </div>
